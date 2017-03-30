@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
-import meridium.aPM.utilityLibrary.*;
+import meridium.APM.UtilityLibrary.UtilFunction;
 public class Facebooklogin {
 	WebDriver driver = new FirefoxDriver();
 	String inputPathFile="C:\\Users\\prisharm\\workspace\\DemoSeleniumFramework\\src\\meridium\\APM\\TestData\\Login.Properties";
