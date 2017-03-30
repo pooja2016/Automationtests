@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
            <class name="meridium.APM.TestScript.HelloWorld"/>
+           <class name="meridium.APM.TestScript.Facebooklogin"/> 
     </classes>
   </test> 
 </suite>
