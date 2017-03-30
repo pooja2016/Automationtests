@@ -5,5 +5,5 @@
     <classes>
            <class name="meridium.APM.TestScript.HelloWorld"/>
     </classes>
-  </test> <!-- Test --
-</suite> <!-- Suite -->
+  </test> 
+</suite>
