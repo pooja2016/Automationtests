@@ -22,6 +22,7 @@ public void login(){
 	driver.findElement(By.xpath(usernameXpath)).sendKeys(uName);
 	driver.findElement(By.id("pass")).sendKeys(pass);
 	driver.findElement(By.id("loginbutton")).click();
-	System.out.println("Login successful");
+	String pageTitle=driver.getTitle();
+	System.out.println("Login successful:"+pageTitle);
 }
 }
