@@ -11,6 +11,8 @@ public class Facebooklogin {
 	String xpathFile="C:\\Users\\prisharm\\workspace\\DemoSeleniumFramework\\src\\meridium\\APM\\objectRepository\\xpathPropertyfile.properties";
 @Test
 public void login(){
+	System.out.println("========================================================");
+	System.out.println("Login Test starts");
 	String fbURL, uName, pass, usernameXpath;
 	
 	fbURL = UtilFunction.dataExtract("url", inputPathFile);
@@ -24,5 +26,7 @@ public void login(){
 	driver.findElement(By.id("loginbutton")).click();
 	String pageTitle=driver.getTitle();
 	System.out.println("Login successful:"+pageTitle);
+	System.out.println("Login Test ends);
+	System.out.println("========================================================");
 }
 }
