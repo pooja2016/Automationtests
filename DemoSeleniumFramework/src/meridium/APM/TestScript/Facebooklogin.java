@@ -26,7 +26,7 @@ public void login(){
 	driver.findElement(By.id("loginbutton")).click();
 	String pageTitle=driver.getTitle();
 	System.out.println("Login successful:"+pageTitle);
-	System.out.println("Login Test ends);
+	System.out.println("Login Test ends");
 	System.out.println("========================================================");
 }
 }
